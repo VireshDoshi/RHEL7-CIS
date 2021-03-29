@@ -42,7 +42,7 @@ bin/python:
 
 # cleanup virtualenv and molecule leftovers
 clean:
-	rm -rf bin lib include lib64 share
+	rm -rf bin lib include lib64 share .molecule .cache etc
 	rm -f .Python pip-selfcheck.json
 
 .PHONY: lint
