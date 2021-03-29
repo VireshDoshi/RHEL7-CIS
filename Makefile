@@ -50,5 +50,5 @@ lint: bin/python
 	( . bin/activate && bin/molecule lint )
 
 .PHONY: test
-test: bin/python
+test:
 	( . bin/activate && bin/molecule test )
