@@ -38,7 +38,7 @@ bin/python:
 	# Now with those two we can isolate our test setup.
 	virtualenv .
 	bin/pip install -r requirements.txt
-	virtualenv --relocatable .
+	# virtualenv --relocatable .
 
 # cleanup virtualenv and molecule leftovers
 clean:

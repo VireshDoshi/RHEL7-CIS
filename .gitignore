@@ -40,3 +40,6 @@ benchparse/
 *xccdf.xml
 *.retry
 pyvenv.cfg
+
+bin
+lib
